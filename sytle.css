@@ -138,8 +138,9 @@ main {
 .description p {
   max-width: 500px;
   font-size: 1.5rem;
-  text-align: left;
+  text-align: justify;
   margin-right: 5%;
+  font-weight: 300;
 }
 
 .code_panel {
