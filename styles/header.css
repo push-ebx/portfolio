@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  background-color: var(--orange-color);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+nav {
+  max-width: 1250px;
+  margin: 50px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+#home-nav {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1250px) {
+  nav {
+    max-width: 620px;
+  }
+}
+
+@media screen and (max-width: 690px) {  
+  nav {
+    max-width: 550px;
+    margin: 50px 20px;
+  }
+}

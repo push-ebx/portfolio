@@ -1,0 +1,133 @@
+#skillset {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  padding: 40px 100px;
+}
+
+#skillset h1{
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#skillset span {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+#stack {
+  display: flex;
+  justify-content: center;
+}
+
+#stack_wrapper {
+  width: 1470px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  row-gap: 50px;
+  column-gap: 150px;
+  justify-content: start;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.skill-card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  transform: scale(1.0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-card div:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-card img {
+  width: 90px;
+  border-radius: 20%;
+}
+
+.skill-card span {
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 1670px) {
+  #stack_wrapper {
+    width: calc(120px*5 + 150px*4);
+  }
+
+  #skillset {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #stack_wrapper {
+    width: calc(120px*4 + 150px*3);
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  #stack_wrapper {
+    column-gap: 100px;
+    width: calc(120px*3 + 100px*2);
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #stack_wrapper {
+    width: calc(120px*3 + 100px*2);
+  }
+
+  #skillset {
+    padding: 40px 20px;
+  }
+
+  #skillset h1 {
+    font-size: 3rem;
+  }
+
+  #skillset span {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #stack_wrapper {
+    column-gap: 50px;
+    width: calc(120px*3 + 50px*2);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #stack_wrapper {
+    column-gap: 50px;
+    width: calc(120px*2 + 50px*1);
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #stack_wrapper {
+    width: 120px;
+  }
+}

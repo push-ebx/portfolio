@@ -1,0 +1,41 @@
+@import './header.css';
+@import './home.css';
+@import './skillset.css';
+@import './projects.css';
+@import './contacts.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  --orange-color: #ffbe6a;
+  --purple-color: #b392f0;
+  --blue-color: #79b8ff;
+  --red-color: #f97583;
+  --white-color: #e1e4e8;
+  --green-color: #85e89d;
+  --gray-color-100: #2b3036;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  position: relative;
+  font-size: 20px;
+  min-height: 100%;
+  scroll-behavior: smooth;
+  color: var(--gray-color-100);
+  /* background-color: var(--orange-color); */
+}
+
+body {
+  height: 100vh;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
