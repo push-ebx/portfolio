@@ -26,6 +26,7 @@
     font-size: 1.0rem;
     padding: 0.35rem 1rem;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .skill:hover {
