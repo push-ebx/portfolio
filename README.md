@@ -1,2 +1,2 @@
 # portfolio
-[link](https://portfolio-push-ebx.vercel.app/)
+[link](https://push-ebx.ru/)

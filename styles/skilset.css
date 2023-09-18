@@ -1,0 +1,33 @@
+#skills {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin: 2.25rem 0;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    padding: 0 0.5rem;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#skills::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.row-skills {
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: center;
+}
+
+.skill {
+    border: 0.05rem solid var(--green);
+    border-radius: 1.5rem;
+    font-size: 1.0rem;
+    padding: 0.35rem 1rem;
+    cursor: pointer;
+}
+
+.skill:hover {
+    background: var(--green-hover);
+}

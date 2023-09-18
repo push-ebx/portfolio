@@ -1,0 +1,53 @@
+@import './header.css';
+@import './home.css';
+@import './skilset.css';
+@import './projects.css';
+@import './contacts.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --text-color: #CCD6F6;
+    --background-color: #17182A;
+    --green: #0EB68E;
+    --red: #FF5B5B;
+    --curly-bracket-color: #FFE973;
+    --number-color: var(--red);
+    --string-color: var(--green);
+    --project-card-color: #262840;
+    --green-hover: #0EB68E1A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color) !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 20px;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    background: var(--background-color);
+}
+
+main {
+    background: var(--background-color);
+}
+
+h1 {
+    font-size: 3.5rem !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-size: 3.35rem !important;
+    text-align: center;
+}
+
+h3  {
+    text-align: center;
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+}

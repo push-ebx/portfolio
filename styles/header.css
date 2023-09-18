@@ -1,39 +1,43 @@
 header {
-  width: 100%;
-  z-index: 100;
-  display: flex;
-  justify-content: center;
-  background-color: var(--orange-color);
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    background: var(--background-color);
 }
 
 #logo {
-  font-size: 1.5rem;
-  font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 nav {
-  max-width: 1250px;
-  margin: 50px;
+    max-width: 62rem;
+    margin: 0.5rem;
 }
 
 .navbar-nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 #home-nav {
-  opacity: 1;
+    opacity: 1;
+}
+
+.nav-link:hover {
+    color: var(--green) !important;
 }
 
 @media screen and (max-width: 1250px) {
-  nav {
-    max-width: 620px;
-  }
+    nav {
+        max-width: 31rem;
+    }
 }
 
-@media screen and (max-width: 690px) {  
-  nav {
-    max-width: 550px;
-    margin: 50px 20px;
-  }
+@media screen and (max-width: 690px) {
+    nav {
+        max-width: 27.5rem;
+        margin: 2.5rem 1rem;
+    }
 }
