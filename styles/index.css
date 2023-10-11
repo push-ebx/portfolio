@@ -39,15 +39,30 @@ main {
 h1 {
     font-size: 3.5rem !important;
     font-weight: 700 !important;
+    margin: 0 0.5rem;
 }
 
 h2 {
     font-size: 3.35rem !important;
     text-align: center;
+    margin: 0 0.5rem;
 }
 
 h3  {
     text-align: center;
     font-size: 1.5rem !important;
     font-weight: 400 !important;
+    margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    html {
+        font-size: 15px;
+    }
 }
