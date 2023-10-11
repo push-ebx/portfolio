@@ -23,7 +23,12 @@
     border-radius: 0.5rem;
     padding: 1.5rem;
     row-gap: 1.2rem;
-    cursor: pointer;
+    transition: transform .2s ease-out;
+}
+
+.project-card:hover {
+    transition: transform .2s ease-out;
+    transform: scale(1.03);
 }
 
 .top-project-card {
@@ -34,6 +39,7 @@
 .link-github {
     display: flex;
     column-gap: 1.05rem;
+    
 }
 
 .project-description {
@@ -51,6 +57,12 @@
 }
 
 .external-link-icon, .github-icon {
+    transition: filter .2s ease-out;
+}
+
+.external-link-icon:hover, .github-icon:hover {
+    filter: invert(57%) sepia(42%) saturate(5791%) hue-rotate(134deg) brightness(100%) contrast(89%);
+    transition: filter .2s ease-out;
     cursor: pointer;
 }
 

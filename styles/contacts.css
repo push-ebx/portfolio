@@ -24,6 +24,13 @@
     align-items: center;
     justify-content: center;
     padding: 0.5rem 0;
+    transition: background .2s ease-out;
+}
+
+.contact:hover {
+    background-color: var(--green);
+    transition: background .2s ease-out;
+    cursor: pointer;
 }
 
 .type-contact {
@@ -31,7 +38,7 @@
 }
 
 .value {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 
 @media screen and (max-width: 1000px) {
