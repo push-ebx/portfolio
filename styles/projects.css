@@ -19,7 +19,7 @@
     max-width: 20rem;
     background: var(--project-card-color);
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: column;
     border-radius: 0.5rem;
     padding: 1.5rem;
